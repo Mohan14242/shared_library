@@ -2,10 +2,11 @@
 pipeline{
     agent any
     def names(Map maps) {
-    def prod_deploy = maps.prod_deploy
-    def environment = maps.environment
-    def choice = maps.choice
-    def password = maps.password
+        def prod_deploy = maps.prod_deploy
+        def environment = maps.environment
+        def choice = maps.choice
+        def password = maps.password
+    }
     
     stages{
         stage('build'){
@@ -20,4 +21,4 @@ pipeline{
         }
     }
 }
-}
+
