@@ -1,7 +1,5 @@
-#!groovy
-def names(Map configmap){
-    application=configmap.get("application")
-    componenet=configmap.get("componenet")
-    echo "this is my applications ${application} and ${componenet}"
-
+def names(Map configmap) {
+    def application = configmap.application
+    def component = configmap.component
+    echo "This is my application: ${application} and component: ${component}"
 }
