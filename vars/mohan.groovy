@@ -1,14 +1,3 @@
-#!groovy 
-pipeline{
-    agent any 
-    stages{
-        stage("build "){
-            steps{
-                script{
-                    echo " this is the mohane"
-                    echo "who are you this is the only one of the entire world"
-                }
-            }
-        }
-    }
+def call() {
+    return my.sayHello() // Calling the function from the main library script
 }
