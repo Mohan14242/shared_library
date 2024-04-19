@@ -4,7 +4,7 @@ pipeline{
     environment{
         def names(Map configmap){
             application=configmap.get('application')
-            component=configmap.get('component')
+            component=configmap.get('componenet')
         }
 
     }
