@@ -10,9 +10,11 @@ pipeline{
     }
     stages{
         stage("build"){
-            script{
+            steps{
+                script{
                 echo "the applications is${application}"
                 echo "the compoent is ${component}"
+            }
             }
         }
     }
