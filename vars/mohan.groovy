@@ -1,21 +1,7 @@
 #!groovy
-pipeline{
-    agent any 
-    environment{
-        def names(Map configmap){
-            application=configmap.get('application')
-            component=configmap.get('componenet')
-        }
+def names(Map configmap){
+    application=configmap.get("application")
+    componenet=configmap.get("componenet")
+    echo "this is my applications ${application} and ${componenet}"
 
-    }
-    stages{
-        stage("build"){
-            steps{
-                script{
-                echo "the applications is${application}"
-                echo "the compoent is ${component}"
-            }
-            }
-        }
-    }
 }
