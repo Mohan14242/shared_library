@@ -1,3 +1,4 @@
+#!groovy
 def call() {
-    return my.sayHello() // Calling the function from the main library script
+    echo "this is the mohan who are you"
 }
