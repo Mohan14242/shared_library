@@ -2,7 +2,6 @@ def names(){
     def values="this is the mohan  who are you "
     def keys="this are the keys from the mohan"
     pipeline{
-        agent any 
         stages{
             stage("build"){
                 steps{
