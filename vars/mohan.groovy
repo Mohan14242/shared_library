@@ -1,4 +1,4 @@
-def exam(Map chiru){
+def names(Map chiru){
     def name=chiru["name"]
     def age=chiru.age 
     def salary=chiru.salary
