@@ -5,7 +5,9 @@ def names(){
         stages{
             stage("build"){
                 steps{
+                    script{
                     echo "this are the keys and values ${values} and ${keys}"
+                    }
                 }
             }
         }
