@@ -1,5 +1,4 @@
-def call(String name){
-    def n=name
-    echo "printing the stage ${n}"
+def details(Map person){
+    def name=person["name"]
+    def age=person["age"]
 }
-
