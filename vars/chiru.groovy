@@ -1,4 +1,5 @@
-def call(){
-    echo "printing the stage "
+def call(string name){
+    def name=name
+    echo "printing the stage ${name}"
 }
 
