@@ -1,5 +1,5 @@
 def call(String name){
-    def name=name
+    def name1=name
     echo "printing the stage ${name}"
 }
 
